@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B68C9A59-DFBE-B369-CAE1-0E563EF6CAE0" name="Order">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:17:48 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="#id" id="03C03AB6-4E22-9642-9E6A-F35E3947416D">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:17:53 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="D0BAF4CA-A045-6C50-638F-3C289CB1E8DB">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:18:01 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Time" id="227A92A9-AE3D-2270-99C3-1B730CC41EF1">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:18:11 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item purcahse" id="072850CE-A030-1D70-F484-4A46ADE771D1">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:18:21 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="78A1AB34-ACA6-EEBC-A470-AC657C30F2F2">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:18:31 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of units" id="EAC0142D-7125-9114-3F05-5D5612038BA7">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:18:38 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total Order Price" id="7D5F4A73-78E8-5471-0863-F7AE54B48F4F">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:18:49 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item size" id="DB7E9945-BC0A-02D9-E5AF-C091F23678A2">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:18:59 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="6EF6E268-6920-1D40-8ABE-B8C682E2FA1C">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:19:15 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="#Number" id="8D28E2B2-A1E4-9141-AEFF-827F043083A6">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:23:06 UTC</createdTime>
+<generatorID>E15F3244-FC24-ABF2-EBAE-B9CBAB86E15C</generatorID>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<referedAttribute>34D07ADF-743C-699F-C113-1BD15686E0A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B30B6AF-9AD5-4CF2-C14B-A4F4B54D537F" name="Order PK">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:17:57 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03C03AB6-4E22-9642-9E6A-F35E3947416D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

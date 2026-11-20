@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5E82C32-4149-3397-2052-1672C51D42F9" name="Ordered Item">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:24:26 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Quantity ordered" id="92F2F9AA-C7A0-6CF2-6C9A-A1A17F3F89BA">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:24:34 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity Shipped" id="56630BF0-FA26-3408-9966-0827A1551468">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:24:42 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="#id" id="EC0A65C0-B88D-6F25-1922-57E22941EA00">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:24:56 UTC</createdTime>
+<generatorID>A659C039-2971-F4F1-6306-5D88BC49A32A</generatorID>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<referedAttribute>03C03AB6-4E22-9642-9E6A-F35E3947416D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="#Number" id="DF1C42A5-C9E7-619E-F87A-F6A358DB064C">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:25:02 UTC</createdTime>
+<generatorID>9E731CF2-B511-F0C1-9827-05C544EF76CE</generatorID>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<referedAttribute>F38C1260-8367-97E4-2BD5-688E82022C21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4D0F6E6-8DE5-FF07-9842-2545949A3A0C" name="Ordered Item PK">
+<createdBy>User</createdBy>
+<createdTime>2026-11-20 07:24:40 UTC</createdTime>
+<ownerDesignName>sbd111</ownerDesignName>
+<engineerTo>
+<item key="A4FC1E7C-B4DC-2E49-764D-B5E1115E25EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92F2F9AA-C7A0-6CF2-6C9A-A1A17F3F89BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
